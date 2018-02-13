@@ -1,0 +1,7 @@
+<h1>Listing Projects</h1>
+
+<% @projects.each do |project| %>
+    <a href="<%= Mosaico.project_path(project) %>"><%= "#{project.template_name}-#{project.id}" %></a>
+<% end %>
+
+<%= link_to 'New Project', new_project_path %>

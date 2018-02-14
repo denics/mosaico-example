@@ -1,1 +1,1 @@
-Mosaico.register_template('test', Rails.root.join('lib/templates/test'))
+Mosaico.register_template('inforadar', Rails.root.join('lib/templates/inforadar'))
